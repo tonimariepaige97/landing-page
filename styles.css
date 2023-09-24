@@ -18,6 +18,7 @@ header {
 
 .header-logo {
   font-weight: 700;
+  margin-left: 18.5rem;
 }
 
 ul {
@@ -25,6 +26,50 @@ ul {
   list-style-type: none;
   width: 21rem;
   justify-content: space-between;
+  margin-right: 18.3rem;
 }
 
 /* SUBHEADER */
+subheader {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.leftside-sh {
+  width: 30%;
+}
+
+.rightside-sh {
+  background-color: grey;
+  padding: 5rem;
+  width: 30%;
+  /* margin-right: 2rem; */
+  display: flex;
+  justify-content: center;
+  height: 14rem;
+  align-items: center;
+}
+
+.leftside-sh h1 {
+  font-size: 48px;
+}
+
+.leftside-sh p {
+  font-size: 18px;
+  width: 75%;
+}
+
+.leftside-sh button {
+  background-color: #3882f6;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+}
