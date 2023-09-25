@@ -140,3 +140,37 @@ subheader {
   width: 40rem;
   padding-left: 25rem;
 }
+
+.call-to-action {
+  height: 15rem;
+}
+
+.cta-box {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: center;
+  height: 8rem;
+  padding: 5px;
+  margin: 8rem 12rem 8rem 12rem;
+  border-radius: 10px;
+}
+
+.cta-box p {
+  color: white;
+  margin-top: 30px;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+button {
+  color: white;
+  background-color: #3882f6;
+  font-weight: 500;
+  border: 3px solid white;
+  border-radius: 10px;
+  width: 6rem;
+  height: 2rem;
+  font-size: 1rem;
+  margin-top: 2.6rem;
+  margin-left: 5rem;
+}
