@@ -162,7 +162,7 @@ subheader {
   font-weight: 100;
 }
 
-button {
+.cta-box button {
   color: white;
   background-color: #3882f6;
   font-weight: 500;
@@ -173,4 +173,19 @@ button {
   font-size: 1rem;
   margin-top: 2.6rem;
   margin-left: 5rem;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #1f2937;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer p {
+  color: white;
+  font-size: 20px;
+  margin-top: 1.8rem;
 }
